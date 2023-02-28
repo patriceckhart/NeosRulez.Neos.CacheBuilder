@@ -1,0 +1,19 @@
+{
+  "description": "A frontend cache builder for Neos CMS.",
+  "type": "neos-package",
+  "name": "neosrulez/neos-cachebuilder",
+  "require": {
+      "neos/neos": "^7.0 || ^8.0 || ^8.1",
+      "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NeosRulez\\Neos\\CacheBuilder\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "NeosRulez.Neos.CacheBuilder"
+    }
+  }
+}
