@@ -28,6 +28,11 @@ Run it when you start your instance or run it as a cron job:
 ```
 flow cache:build
 ```
+or
+```
+flow cache:build --sitemap https://acme.com/sitemap.xml
+```
+to use a specific sitemap
 
 ## Author
 
