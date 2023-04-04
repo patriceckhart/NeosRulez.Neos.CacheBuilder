@@ -30,6 +30,15 @@ class CacheService
     }
 
     /**
+     * @param string $sitemap
+     * @return void
+     */
+    public function buildCacheOnce(string $sitemap): void
+    {
+        $this->callPageUrls($this->getSitemapFromUrl($sitemap));
+    }
+
+    /**
      * @param string $url
      * @return array
      */
